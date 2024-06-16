@@ -1,11 +1,39 @@
-# Tp5-Sist-Com
-Trabajo final Sistemas de Computacion 2024
+# TP5-Sistemas de Computacion.
+Device Drivers  
 
-QEMU RPI GPIO:
+Alumnos:  
+Badariotti, Juan Miguel  
+Dallari Larrosa, Gian Franco  
+Dallari Larrosa, Giuliano  
 
-En esta parte simularemos GPIO Raspberry Pi en qemu,
-El script (qemu-rpi-gpio) interactúa con QEMU utilizando el protocolo qtest incorporado.
-Al envolver el protocolo e interactuar con la memoria del sistema operativo invitado, puede establecer o restablecer los distintos GPIO.
+
+
+
+
+## Introducción.
+
+
+Un "driver" es aquel que conduce, administra, controla, dirige, monitorea la entidad bajo su mando. Un "bus driver" hace eso con un "bus". De manera similar, un "device driver" hace eso con un dispositivo. Un dispositivo puede ser cualquier periférico conectado a una computadora, por ejemplo, un mouse, un teclado, una pantalla/monitor, un disco duro, una cámara, un reloj, etc., cualquier cosa.
+Un "driver" puede ser una persona o sistemas automáticos, posiblemente monitoreados por otra persona. Del mismo modo, el "device driver" podría ser una pieza de software u otro periférico/dispositivo, posiblemente controlado por un software. Sin embargo, si se trata de otro periférico/dispositivo, se denomina "device controller" en el lenguaje común. Y por "driver" solo nos referimos a un "software driver". Un "device controller" es un dispositivo en sí mismo y, por lo tanto, muchas veces también necesita un "driver", comúnmente conocido como "bus driver".
+Los ejemplos generales de "device controller" incluyen controladores de disco duro, controladores de pantalla, controladores de audio para los dispositivos correspondientes. Ejemplos más técnicos serían los controladores para los protocolos de hardware, como un controlador IDE, un controlador PCI, un controlador USB, un controlador SPI, un controlador I2C, etc.  
+
+## Enunciado.
+
+
+Para superar este TP tendrán que diseñar y construir un CDD que permita sensar dos señales externas con un periodo de UN segundo. Luego una aplicación a nivel de usuario deberá leer UNA de las dos señales y graficarla en función del tiempo. La aplicación también debe poder indicarle al CDD cuál de las dos señales leer. Las correcciones de escalas de las mediciones, de ser necesario, se harán a nivel de usuario. Los gráficos de la señal deben indicar el tipo de señal que se está sensando, unidades en abscisas y tiempo en ordenadas. Cuando se cambie de señal el gráfico se debe "resetear" y acomodar a la nueva medición.  
+
+
+
+
+
+## QEMU RPI GPIO:
+
+En esta parte simularemos GPIO Raspberry Pi en qemu.  
+El script (qemu-rpi-gpio) interactúa con QEMU utilizando el protocolo qtest incorporado.  
+Al envolver el protocolo e interactuar con la memoria del sistema operativo invitado, puede establecer o restablecer los distintos GPIO.  
+Para iniciar,forkeamos y clonamos el siguiente repositorio de Github y luego lo compilamos:  
+https://github.com/berdav/qemu
+
 
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/b1a3da65-729d-4b38-9026-f028d3120431)
 
@@ -17,10 +45,13 @@ Al envolver el protocolo e interactuar con la memoria del sistema operativo invi
 
 
 Una vez clonado el repositorio ejecutamos las instrucciones que se indican:
- - mkdir build
- - cd build 
+- mkdir build
+- cd build 
 - ../configure 
-- make 
+- make
+
+  
+Al hacerlo nos encontramos con algunos errores, como se vera a continuacion:  
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/12a0101c-f7ce-4f00-9c84-a157cd862c40)
 
 
@@ -57,12 +88,17 @@ Y ahora el Make:
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/69324550-77b4-46d3-bf23-e5f015759df1)
 
 
-Instalamos el script que interactúa con Qemu: 
+Instalamos el script que interactúa con Qemu:  
+
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/cb873735-7f80-40bb-880d-43f0e19d2994)  
+
+Instalamos los prerrequisitos necesarios.
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/b4f5227c-54ae-46fd-81cb-c90f33bdd64d)
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/569eb0f8-226c-4683-9f19-b49fb9359067)
 
 
-Luego descargamos la imagen raspbian usando el comando: ./qemu-pi-setup/setup.sh
+Luego descargamos la imagen raspbian usando el comando:  
+./qemu-pi-setup/setup.sh  
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/2a9c8bcb-4cdc-4cdd-be54-3f0ab092a178)
 
 
@@ -73,10 +109,21 @@ Antes de continuar cambiamos la contraseña y la montamos y guardamos en usercon
 
 
 Ahora ejecutamos el script para cargar el socket de unix y hacerlo disponible para qemu
-![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9613818f-8f4c-4b22-9d9c-4826656509dc)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9613818f-8f4c-4b22-9d9c-4826656509dc)  
+
+Ahora verificaremos el funcionamiento de qemu-rpi-gpio  
+ Exportamos GPIOs:  
+ ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/c8ea2151-3e85-4805-a407-de2c1a9fc30e)  
+
+Vemos como podemos leer valores de GPIO y tambien setearlos en la shell de qemu:  
 
 
-![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9b25f399-bf74-492c-a74c-b7dc28b72704)
-![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/c8ea2151-3e85-4805-a407-de2c1a9fc30e)
-![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/bdc823aa-611d-4594-9324-374f29f4e088)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9b25f399-bf74-492c-a74c-b7dc28b72704)  
+
+Verificamos el set del GPIO 4 en la Raspberry PI emulada en la otra terminal.  
+
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/bdc823aa-611d-4594-9324-374f29f4e088)  
+
+Entonces interactuando desde el terminal de qemu, podemos escribir y leer valores que estan en sys/class/gpio de la Raspberry  
+emulada, dandonos acceso desde el userspace a los GPIO.
 
