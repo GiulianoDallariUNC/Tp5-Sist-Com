@@ -67,5 +67,15 @@ Luego descargamos la imagen raspbian usando el comando: ./qemu-pi-setup/setup.sh
 
 Antes de continuar cambiamos la contraseña y la montamos y guardamos en userconfig:
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/cfecc668-c26d-460d-a82c-2c9943c5e579)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/d7b37a04-a75d-4076-b2e2-91e111c5cd5b)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/a2c55487-607f-4513-94bb-5886b0fd9435)
 
+
+Ahora ejecutamos el script para cargar el socket de unix y hacerlo disponible para qemu
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9613818f-8f4c-4b22-9d9c-4826656509dc)
+
+
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/9b25f399-bf74-492c-a74c-b7dc28b72704)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/c8ea2151-3e85-4805-a407-de2c1a9fc30e)
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/bdc823aa-611d-4594-9324-374f29f4e088)
 
