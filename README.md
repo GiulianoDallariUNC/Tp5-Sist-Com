@@ -25,6 +25,7 @@ Una vez clonado el repositorio ejecutamos las instrucciones que se indican:
 
 
 Para solucionar este error hicimos lo siguiente:
+
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/50e225ac-fdd3-444d-b849-bd7aa2a5857e)
 
 
