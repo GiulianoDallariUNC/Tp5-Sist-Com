@@ -127,3 +127,35 @@ Verificamos el set del GPIO 4 en la Raspberry PI emulada en la otra terminal.
 Entonces interactuando desde el terminal de qemu, podemos escribir y leer valores que estan en sys/class/gpio de la Raspberry  
 emulada, dandonos acceso desde el userspace a los GPIO.
 
+## GitLab Adicional: Device Drivers
+https://gitlab.com/sistemas-de-computacion-unc/device-drivers
+### Driver 1
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/0dff1adc-34a9-4fdd-a696-4e54748d70ef)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/ce9a78c9-4992-4314-837d-07fe8563bb5d)
+### Driver 2
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/ec8650ca-5602-46df-aa16-a2ae7f2b2bb8)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/8f322297-7002-4504-ad6a-951a4e31ceb5)
+<br>(Explicar que son Major y Minor)
+### Driver 3
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/5a4256a6-3836-4acc-a50d-e0ced362ad12)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/2170e5db-e1de-4f23-84a2-e54d8a62f6ab)
+<br>Probamos utilizar las funciones open, close, read, write que tiene incorporados el driver
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/b432ebc7-05d3-4b40-baa7-aae46c96528a)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/c1a4b196-38e1-4dde-bae4-a607bb7e3df9)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/d8c8278f-ecd5-435e-b332-22482eef0065)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/dc3eddcd-6583-46c6-af2f-b9e6463f5412)
+### Driver 4
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/7f95cf40-0dc1-43c9-8363-d9f5984fa7f1)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/57c2f72e-e19c-49b7-8990-93d0fd867178)
+<br>(Le doy permisos de lectura/escritura y veo como almacena el ultimo caracter, en el primer caso es 't', en el segundo caso es el salto de línea)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/839d28db-f244-432e-b729-7fc78881da1d)
+### Clipboard
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/7b38cf3c-a2c8-401f-ad0d-c0364b98a25c)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/c1193c36-3ad3-4a9a-94d8-baa0c6e8ba36)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/17312c19-df50-46d4-a56d-b74a3cce0c3c)
+
+
+
+
+
+
