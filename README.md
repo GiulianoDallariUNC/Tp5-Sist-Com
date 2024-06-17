@@ -135,7 +135,13 @@ https://gitlab.com/sistemas-de-computacion-unc/device-drivers
 ### Driver 2
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/ec8650ca-5602-46df-aa16-a2ae7f2b2bb8)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/8f322297-7002-4504-ad6a-951a4e31ceb5)
-<br>(Explicar que son Major y Minor)
+<br> En el desarrollo de drivers en Linux, es común trabajar con dispositivos de carácter (character devices). Para gestionar estos dispositivos, se utilizan ciertos tipos y macros definidos en el kernel de Linux, específicamente en el archivo de cabecera <linux/types.h>. Uno de estos tipos es dev_t, que es utilizado para representar números de dispositivo.
+
+dev_t: Este tipo de dato contiene dos números: el número mayor (major number) y el número menor (minor number). El número mayor identifica al controlador del dispositivo, mientras que el número menor identifica un dispositivo específico controlado por ese controlador.
+
+MAJOR(dev_t): Este macro extrae el número mayor de un valor de tipo dev_t.
+
+MINOR(dev_t): Este macro extrae el número menor de un valor de tipo dev_t.
 ### Driver 3
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/5a4256a6-3836-4acc-a50d-e0ced362ad12)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/2170e5db-e1de-4f23-84a2-e54d8a62f6ab)
