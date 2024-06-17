@@ -146,7 +146,6 @@ MINOR(dev_t): Este macro extrae el número menor de un valor de tipo dev_t.
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/5a4256a6-3836-4acc-a50d-e0ced362ad12)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/2170e5db-e1de-4f23-84a2-e54d8a62f6ab)
 <br>Probamos utilizar las funciones open, close, read, write que tiene incorporados el driver
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/b432ebc7-05d3-4b40-baa7-aae46c96528a)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/c1a4b196-38e1-4dde-bae4-a607bb7e3df9)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/d8c8278f-ecd5-435e-b332-22482eef0065)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/dc3eddcd-6583-46c6-af2f-b9e6463f5412)
