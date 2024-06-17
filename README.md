@@ -135,13 +135,9 @@ https://gitlab.com/sistemas-de-computacion-unc/device-drivers
 ### Driver 2
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/ec8650ca-5602-46df-aa16-a2ae7f2b2bb8)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/8f322297-7002-4504-ad6a-951a4e31ceb5)
-<br> En el desarrollo de drivers en Linux, es común trabajar con dispositivos de carácter (character devices). Para gestionar estos dispositivos, se utilizan ciertos tipos y macros definidos en el kernel de Linux, específicamente en el archivo de cabecera <linux/types.h>. Uno de estos tipos es dev_t, que es utilizado para representar números de dispositivo.
+<br> En el desarrollo de drivers en Linux, es común trabajar con dispositivos de carácter (character devices). Para gestionar estos dispositivos, se utilizan ciertos tipos y macros definidos en el kernel de Linux, específicamente en el archivo de cabecera *<linux/types.h>*. Uno de estos tipos es dev_t, que es utilizado para representar números de dispositivo.
 
-dev_t: Este tipo de dato contiene dos números: el número mayor (major number) y el número menor (minor number). El número mayor identifica al controlador del dispositivo, mientras que el número menor identifica un dispositivo específico controlado por ese controlador.
-
-MAJOR(dev_t): Este macro extrae el número mayor de un valor de tipo dev_t.
-
-MINOR(dev_t): Este macro extrae el número menor de un valor de tipo dev_t.
+**dev_t:** Este tipo de dato contiene dos números: el número mayor (major number) y el número menor (minor number). El número mayor identifica al controlador del dispositivo, mientras que el número menor identifica un dispositivo específico controlado por ese controlador.
 ### Driver 3
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/5a4256a6-3836-4acc-a50d-e0ced362ad12)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/2170e5db-e1de-4f23-84a2-e54d8a62f6ab)
@@ -152,7 +148,7 @@ MINOR(dev_t): Este macro extrae el número menor de un valor de tipo dev_t.
 ### Driver 4
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/7f95cf40-0dc1-43c9-8363-d9f5984fa7f1)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/57c2f72e-e19c-49b7-8990-93d0fd867178)
-<br>(Le doy permisos de lectura/escritura y veo como almacena el ultimo caracter, en el primer caso es 't', en el segundo caso es el salto de línea)
+<br>Con el comando *chmod* se le suministran al driver los permisos de lectura/escritura necesarios para su funcionamiento; como este solo posee un búffer de un char, solo almacenará el ultimo caracter recibido. En el primer ejemplo podemos ver como almacenó 't' ya que incluimos el parámetro "-n" en el echo que evita el salto de línea y en el segundo caso donde no lo hicimos, muestra este mismo.
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/839d28db-f244-432e-b729-7fc78881da1d)
 ### Clipboard
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/7b38cf3c-a2c8-401f-ad0d-c0364b98a25c)
