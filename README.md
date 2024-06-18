@@ -163,7 +163,8 @@ Ahora utilizaremos la Graficadora que podemos encontrar en : https://github.com/
 
 Para ello vamos a utilizar la secuencia 1-1-0-1 en el pin 1:
 
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/6d6d366c-eda7-4cc6-9b8a-ae996a62990d)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/5bc19fd1-c10e-41aa-9b42-96d5616e7de2)
+
 
 
 Y en la graficadora se observa de la siguiente manera:
