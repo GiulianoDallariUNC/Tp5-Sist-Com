@@ -151,6 +151,7 @@ Al cambiar uno de los valores de los pines
 
 El resultado final varía a 5
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/78de3d91-52cd-418a-b6a0-7e0cfe5a2186)
 
 
 
