@@ -127,6 +127,9 @@ Verificamos el set del GPIO 4 en la Raspberry PI emulada en la otra terminal.
 Entonces interactuando desde el terminal de qemu, podemos escribir y leer valores que estan en sys/class/gpio de la Raspberry  
 emulada, dandonos acceso desde el userspace a los GPIO.
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/e634c602-fc27-44ef-a880-45fa7c4d6f23)
+
+
 ## GitLab Adicional: Device Drivers
 https://gitlab.com/sistemas-de-computacion-unc/device-drivers
 ### Driver 1
@@ -154,6 +157,9 @@ https://gitlab.com/sistemas-de-computacion-unc/device-drivers
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/7b38cf3c-a2c8-401f-ad0d-c0364b98a25c)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/c1193c36-3ad3-4a9a-94d8-baa0c6e8ba36)
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/82001859/17312c19-df50-46d4-a56d-b74a3cce0c3c)
+
+
+
 
 
 
