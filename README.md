@@ -173,6 +173,8 @@ Y en la graficadora se observa de la siguiente manera:
 En la siguiente señal vamos a utilizar la secuencia 1-0-1-0
 
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/f2e1515c-9fdb-4cf6-ab32-138418a1e228)
+
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/226d63dd-7019-47f4-9290-f1c8ba43774e)
 
 
