@@ -134,6 +134,7 @@ Al cargar el módulo se setea un sensor por defecto el cual va a enviar los valo
 
 El sensor 1 utiliza los pines 1,2 y 3 y el sensor 2 los pines 4, 5 y 6.
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/902c4598-5d79-4559-9dc3-2905a49da9cb)
 
 
 
