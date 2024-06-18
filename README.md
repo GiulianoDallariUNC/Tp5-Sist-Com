@@ -130,7 +130,8 @@ emulada, dandonos acceso desde el userspace a los GPIO.
 Ejecutando Driver_gpio.c
 
 Al cargar el módulo se setea un sensor por defecto el cual va a enviar los valores al usuario.
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/78f3125d-e175-41aa-8e0c-c7aee690b969)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/c0f43ebb-6abc-4e5d-b8d5-d508fc4c908a)
+
 
 El sensor 1 utiliza los pines 1,2 y 3 y el sensor 2 los pines 4, 5 y 6.
 
