@@ -151,7 +151,7 @@ Valor obtenido en el sensor 1 es 2 de acuerdo a los valores simulados de los pin
 
 Al cambiar uno de los valores de los pines
 
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/6e59a4aa-a4e9-4246-b12c-ae24614ddde2)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/ef15ab9d-27fd-4f19-900d-b551d485d34c)
 
 
 El resultado final varía a 5
@@ -163,6 +163,7 @@ Ahora utilizaremos la Graficadora que podemos encontrar en : https://github.com/
 
 Para ello vamos a utilizar la secuencia 1-1-0-1 en el pin 1:
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/6d6d366c-eda7-4cc6-9b8a-ae996a62990d)
 
 
 Y en la graficadora se observa de la siguiente manera:
