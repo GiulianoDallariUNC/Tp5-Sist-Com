@@ -129,6 +129,8 @@ emulada, dandonos acceso desde el userspace a los GPIO.
 
 Ejecutando Driver_gpio.c
 
+El driver esta subido en: https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/tree/main/qemu-rpi-gpio
+
 Al cargar el módulo se setea un sensor por defecto el cual va a enviar los valores al usuario.
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/c0f43ebb-6abc-4e5d-b8d5-d508fc4c908a)
 
