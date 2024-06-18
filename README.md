@@ -146,6 +146,7 @@ Valor obtenido en el sensor 1 es 2 de acuerdo a los valores simulados de los pin
 
 Al cambiar uno de los valores de los pines
 
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/6e59a4aa-a4e9-4246-b12c-ae24614ddde2)
 
 
 El resultado final varía a 5
