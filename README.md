@@ -170,10 +170,11 @@ Y en la graficadora se observa de la siguiente manera:
 
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/45a9ae77-b756-4f9c-a8a1-516c2a1a5c96)
 
-En la siguiente señal vamos a utilizar la secuencia 1-0-1-0
+En la siguiente señal vamos a utilizar la secuencia 1-0-1-0 en el pin 2:
 
 
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/f2e1515c-9fdb-4cf6-ab32-138418a1e228)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/8f17b2b8-f092-4622-b201-c4a36c0da6a9)
+
 
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/226d63dd-7019-47f4-9290-f1c8ba43774e)
 
