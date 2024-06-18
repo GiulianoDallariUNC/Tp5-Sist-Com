@@ -128,6 +128,7 @@ Entonces interactuando desde el terminal de qemu, podemos escribir y leer valore
 emulada, dandonos acceso desde el userspace a los GPIO.
 
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/e634c602-fc27-44ef-a880-45fa7c4d6f23)
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/7a390bf1-59bb-4950-a444-371d1fb9ca22)
 
 
 ## GitLab Adicional: Device Drivers
