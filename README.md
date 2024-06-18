@@ -132,6 +132,14 @@ Ejecutando Driver_gpio.c
 Al cargar el módulo se setea un sensor por defecto el cual va a enviar los valores al usuario.
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/78f3125d-e175-41aa-8e0c-c7aee690b969)
 
+El sensor 1 utiliza los pines 1,2 y 3 y el sensor 2 los pines 4, 5 y 6.
+
+
+
+
+El resultado final es un cálculo aleatorio a modo de simular lo que podría ser un valor
+sensado real.
+Valor obtenido en el sensor 1 es 2 de acuerdo a los valores simulados de los pines.
 
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/f591a780-944a-46ba-9840-878ebd6da3b5)
 
