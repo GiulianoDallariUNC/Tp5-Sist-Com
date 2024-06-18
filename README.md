@@ -128,12 +128,14 @@ Entonces interactuando desde el terminal de qemu, podemos escribir y leer valore
 emulada, dandonos acceso desde el userspace a los GPIO.
 
 Ejecutando Driver_gpio.c
+
 Al cargar el módulo se setea un sensor por defecto el cual va a enviar los valores al usuario.
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/78f3125d-e175-41aa-8e0c-c7aee690b969)
 
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/e634c602-fc27-44ef-a880-45fa7c4d6f23)
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/7a390bf1-59bb-4950-a444-371d1fb9ca22)
-![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/c41ad825-0da1-4d0d-a57e-f09ebead4d76)
+
+![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/f591a780-944a-46ba-9840-878ebd6da3b5)
+
+
 
 
 
