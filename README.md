@@ -159,6 +159,15 @@ El resultado final varía a 5
 ![imagen](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/102603446/a701be4f-1129-4466-b355-b023178dfbe3)
 
 
+Ahora utilizaremos la Graficadora que podemos encontrar en : https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/tree/main/qemu-rpi-gpio
+
+Para ello vamos a utilizar la secuencia 1-1-0-1 en el pin 1:
+
+
+
+Y en la graficadora se observa de la siguiente manera:
+
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/45a9ae77-b756-4f9c-a8a1-516c2a1a5c96)
 
 
 
