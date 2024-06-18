@@ -170,6 +170,12 @@ Y en la graficadora se observa de la siguiente manera:
 
 ![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/45a9ae77-b756-4f9c-a8a1-516c2a1a5c96)
 
+En la siguiente señal vamos a utilizar la secuencia 1-0-1-0
+
+
+![image](https://github.com/GiulianoDallariUNC/Tp5-Sist-Com/assets/147262273/226d63dd-7019-47f4-9290-f1c8ba43774e)
+
+
 
 
 
